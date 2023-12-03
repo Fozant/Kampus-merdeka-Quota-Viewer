@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem; 
+    width: 30%;
+  }
+  
+  .input-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2vw;
+  }
+  
+  .input-group input {
+    width: 70%; /* Adjust width as needed */
+    padding: 0.694vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 30px;
+    border-radius: 10px;
+    border: 0.069vw solid #08b005;
+    background: #FFF;
+    height: 3.472vw;
+  }
+  
+  .input-group i {
+    position: absolute;
+    left: 5%; /* Adjust icon position as needed */
+    color: #999;
+  }
+  .submit-button {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    border: 0.069vw solid #000000;
+    background: #3ca009;
+  }
+
+  /* Your existing CSS styles */
+
+/* Center the api-data container */
+.api-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left; /* Align content inside container */
+    margin: 20px auto; /* Adjust margin as needed */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Optional: Add border for visualization */
+    border-radius: 5px; /* Optional: Add border radius */
+    width: 70%; /* Adjust width as needed */
+    background-color: #f9f9f9; /* Optional: Add background color */
+  }
+
+ 
+  
+  .api-logo img {
+    
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+ 
+  .api-logo {
+    margin-bottom: auto; /* Pushes the logo to the top of the container */
+    text-align: center;
+  }
+  
+
+  
+  .column.left {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    font-size: 1.5em
+  }
+  .bold-text {
+  font-weight: bold;
+}
+
+  /* Styles for the right column */
+  .column.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    float: inline-end;
+    width: 30%;
+    padding: 10px;
+    /* Additional styles for the right column */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+
+  .Search {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    border: 1px solid #000000; /* Use the specific border width */
+    background: #3ca009;
+    color: #000000; /* Text color */
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /* You can add more specific styles or adjust it further based on your requirements */
+  

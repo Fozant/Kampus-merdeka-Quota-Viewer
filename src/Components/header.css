@@ -1,0 +1,153 @@
+.header {
+    height:7.5vw;
+}
+  
+  .header a {
+    float: left;
+    text-align: center;
+    padding: 1.8vw 0 1.6vw 2.5vw;
+    text-decoration: none;
+    color: #398AB9;
+    font-family: Poppins;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .header .logo-diego {
+    float: left;
+    padding: 0.8vw 0 1.9vw 2.5vw;
+    
+    height: 7.8vw;
+    width: 16vw;
+  }
+  
+  
+  /* .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  } */
+  
+  .header-right {
+    float: right;
+  }
+
+  .header-right a {
+    color: #CA5116;
+    font-family: Poppins;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+  }
+
+  .header-right .header-text:hover {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  .header-right .active {
+    color: #1C658C;
+    font-family: Poppins;
+    padding-top: 1.8vw;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .header-right button {
+    margin-top: -3vw;
+    width: 15vw;
+    height: 3.3vw;
+    flex-shrink: 0;
+    border-radius: 2vw;
+  }
+
+  .header .bar-button {
+    display: none;
+  }
+
+  @media screen and (max-width: 800px) {
+    .header-right a {
+      /* position: relative; */
+      /* display: none; */
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+
+    body {
+      overflow-y: hidden;
+    }
+
+    /* .header {
+      overflow-y: hidden;
+    } */
+
+    .header .logo-nama {
+      float: none;
+      /* display: block; */
+      /* display: none; */
+      /* padding-top: 1vw; */
+    }
+
+    .header a {
+      float: none;
+    }
+    
+    .header-right {
+      /* display: none; */
+      position: fixed;
+      right: 0;
+      background-color: #f1e3cb;
+      width: 100%;
+      height: 200%;
+      position: absolute;
+      z-index: 1000;
+      margin-left: -2vw;
+    }
+
+    .header-right a {
+      color: #CA5116;
+      font-size: 5.5vw;
+      text-align: center;
+      padding-right: 3vw;
+    }
+
+    .header-right .active {
+      color: #CA5116;
+      font-size: 5.5vw;
+      background-color: #f1e3cb;
+    }
+
+    .header-right button {
+        margin-left: -16vw;
+        width: 0vw;
+        height: 0vw;
+        flex-shrink: 0;
+        border-radius: 2vw;
+        background: #FFF;
+      }
+
+    /* .header-right .social-image .instagram {
+      width: 8vw;
+      height: 7vw;
+    } */
+
+    .header .bar-button {
+      display: block;
+      position: absolute;
+      top: 1vw;
+      right: 3vw;
+      font-size: 4vw;
+    }
+
+    /* .header a {
+      padding-top: 0vw;
+    } */
+
+  }
