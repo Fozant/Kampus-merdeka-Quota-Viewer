@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Kampus-merdeka-Quota-Viewer/static/css/main.2a497f61.css",
-    "main.js": "/Kampus-merdeka-Quota-Viewer/static/js/main.ea41393e.js",
+    "main.js": "/Kampus-merdeka-Quota-Viewer/static/js/main.86478457.js",
     "static/js/787.cec0d308.chunk.js": "/Kampus-merdeka-Quota-Viewer/static/js/787.cec0d308.chunk.js",
     "index.html": "/Kampus-merdeka-Quota-Viewer/index.html",
     "main.2a497f61.css.map": "/Kampus-merdeka-Quota-Viewer/static/css/main.2a497f61.css.map",
-    "main.ea41393e.js.map": "/Kampus-merdeka-Quota-Viewer/static/js/main.ea41393e.js.map",
+    "main.86478457.js.map": "/Kampus-merdeka-Quota-Viewer/static/js/main.86478457.js.map",
     "787.cec0d308.chunk.js.map": "/Kampus-merdeka-Quota-Viewer/static/js/787.cec0d308.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a497f61.css",
-    "static/js/main.ea41393e.js"
+    "static/js/main.86478457.js"
   ]
 }
