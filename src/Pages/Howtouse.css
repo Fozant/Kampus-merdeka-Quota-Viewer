@@ -1,0 +1,40 @@
+/* Howtouse.css */
+
+.all {
+    background-color: rgb(125, 125, 125);
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .class {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gambar {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-button button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2ab731;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}

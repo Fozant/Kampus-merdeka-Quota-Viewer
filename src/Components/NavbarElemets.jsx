@@ -16,13 +16,14 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
   color: #fff;
+  
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-
+  
   &.active {
     color: #15cdfc;
   }
@@ -48,13 +49,7 @@ export const NavMenu = styled.div`
   align-items: center;
   margin-right: -24px;
 
-  /* Second Nav */
-  /* margin-right: 24px; */
-
-  /* Third Nav */
-  /* width: 100vw;
-  white-space: nowrap; */
-
+  /* Media query for responsiveness */
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -65,10 +60,7 @@ export const NavBtn = styled.nav`
   align-items: center;
   margin-right: 24px;
 
-  /* Third Nav */
-  /* justify-content: flex-end;
-  width: 100vw; */
-
+  /* Media query for responsiveness */
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -85,16 +77,18 @@ export const NavBtnLink = styled(Link)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 
-  /* Second Nav */
-  margin-left: 24px;
-
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    margin-left: 24px;
+    
+    &:hover {
+      background: #fff;
+      color: #010606;
+    }
   }
 `;
+
 export const LogoImage = styled.img`
   width: 80px; /* Adjust the width as needed */
   height: auto;
-`
+`;

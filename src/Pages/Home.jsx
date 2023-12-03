@@ -3,6 +3,7 @@ import axios from 'axios';
 import Navbar from '../Components/Navbar';
 import Header from '../Components/Header';
 import './Home.css';
+import Footer from "../Components/Footer";
 
 const Home = () => {
   const [jobName, setJobName] = useState('');
@@ -55,7 +56,7 @@ const Home = () => {
     }
   };
   return (
-    <div>
+    <div className='all'>
         {/* <Header/> */}
       <Navbar />
       <h1>Please Refresh Everytime u hit Submit To Search Again</h1>
@@ -87,11 +88,11 @@ const Home = () => {
         <div className="input-group">
           <input
             className="Activityname"
-            placeholder="Enter location name here, please copy exact name"
+            placeholder="Enter location name here, please copy exact name[DO NOT INCLUDI DI, FOR EXAMPLE= KOTA BANDUNG, AND NOT DI KOTA BANDUNG]"
             name="location"
             value={location}
             onChange={handleLocation}
-            required 
+             
           />
           <i className="icon fas fa-lock"></i>
         </div>
@@ -147,6 +148,7 @@ const Home = () => {
     <p>No data available</p>
   )}
 </div>
+<Footer /> 
 </div>
   );
 };

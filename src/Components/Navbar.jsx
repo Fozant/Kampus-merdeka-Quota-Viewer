@@ -1,36 +1,16 @@
 import React from 'react';
 import styled from 'styled-components'; 
-
-const Nav = styled.nav`
-  background: #000;
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem calc((100vw - 1000px) / 2);
-  z-index: 10;
-`;
-
-const Bars = styled.div`
-  display: none;
-  color: #fff;
+import {
+    Nav,
+    NavLink,
+    Bars,
+    NavMenu,
+    NavBtn,
+    NavBtnLink,
+    LogoImage
+  } from './NavbarElemets';
   
-  /* Media query for responsiveness */
-  @media screen and (max-width: 768px) {
-    display: block;
-    /* ...other styles... */
-  }
-`;
 
-const NavMenu = styled.div`
-  display: flex;
-  align-items: center;
-  margin-right: -24px;
-  
-  /* Media query for responsiveness */
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
 
 const Navbar = () => {
   const handleRefresh = () => {
@@ -42,13 +22,17 @@ const Navbar = () => {
       <Nav>
         {/* Centered text */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%' }}>
-          <h1 style={{ color: '#fff' }}>Detail Kampus Merdeka Position Viewer</h1>
+        
+          <h1 style={{ color: '#fff' }}>Detail Kampus Merdeka Position Viewer </h1>
+         
          
         </div>
         {/* End centered text */}
         <Bars />
         <NavMenu>
-            
+        <NavLink to='/' activeStyle>
+                How to Use this app? Click Here
+              </NavLink>
           <button onClick={handleRefresh} style={{
             color: '#fff',
             backgroundColor: 'green', // Set background color to green
