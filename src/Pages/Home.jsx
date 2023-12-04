@@ -70,7 +70,7 @@ const Home = () => {
             name="jobName"
             value={jobName}
             onChange={handleJobNameChange}
-            required 
+             
           />
           <i className="icon fa-solid fa-envelope"></i>
         </div>
@@ -81,7 +81,7 @@ const Home = () => {
             name="mitra_name"
             value={mitraName}
             onChange={handleMitraNameChange}
-            required 
+
           />
           <i className="icon fas fa-lock"></i>
         </div>
@@ -104,13 +104,13 @@ const Home = () => {
   {loading ? (
     <p>Loading...</p>
   ) : apiData ? (
-    <div>
+    <div className='form'>
         <button className="Search" onClick={handleSearchButtonClick}>
-              If there is more than 1 result, click here to go to your position 
+              If there is more than 1 result, click here to go to your position,Based on your mitra name
             </button>
-      <h2>API Information:</h2>
+      <h2>Position Information:</h2>
       {apiData.map((item) => (
-        <div key={item.id}>
+        <div key={item.id}className="data-row">
             <div class="row">
                 
             <div class="column left">
