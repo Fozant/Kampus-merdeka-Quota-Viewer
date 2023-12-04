@@ -70,7 +70,7 @@ const Home = () => {
             name="jobName"
             value={jobName}
             onChange={handleJobNameChange}
-            required 
+             
           />
           <i className="icon fa-solid fa-envelope"></i>
         </div>
@@ -81,7 +81,7 @@ const Home = () => {
             name="mitra_name"
             value={mitraName}
             onChange={handleMitraNameChange}
-            required 
+
           />
           <i className="icon fas fa-lock"></i>
         </div>
