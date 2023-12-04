@@ -38,3 +38,22 @@
     cursor: pointer;
     text-decoration: none;
 }
+.gambar2{
+height: 20%;
+width: 64%;
+padding-top: 2%;
+}
+.column.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  float: inline-end;
+  width: 100%;
+  padding:  0px;
+  /* Additional styles for the right column */
+}
+.gambar3{
+  height: 20%;
+  width: 64%;
+  padding-top: 2%;
+  }
