@@ -1,128 +1,122 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 .register-container form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 1rem; 
-    width: 30%;
-  }
-  
-  .input-group {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1.2vw;
-  }
-  
-  .input-group input {
-    width: 70%; /* Adjust width as needed */
-    padding: 0.694vw;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    padding-left: 30px;
-    border-radius: 10px;
-    border: 0.069vw solid #08b005;
-    background: #FFF;
-    height: 3.472vw;
-  }
-  
-  .input-group i {
-    position: absolute;
-    left: 5%; /* Adjust icon position as needed */
-    color: #999;
-  }
-  .submit-button {
-    width: 70%;
-    margin: 0 auto;
-    padding: 10px;
-    display: block;
-    border: 0.069vw solid #000000;
-    background: #3ca009;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1vw; /* Converted from 1rem */
+  width: 30vw; /* Converted from 30% */
+}
 
-  /* Your existing CSS styles */
+.input-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.728vw; /* Converted from 17.28px */
+}
+
+.input-group input {
+  width: 70vw; /* Converted from 70% (Adjust width as needed) */
+  padding: 1vw; /* Converted from 9.994px */
+  border: 0.069vw solid #ccc;
+  border-radius: 0.347vw;
+  outline: none;
+  padding-left: 0.2083vw; /* Converted from 2.083vw */
+  border-radius: 0.694vw;
+  border: 0.994px solid #08b005; /* Retained as pixels */
+  background: #FFF;
+  height: 4.9997vw; /* Converted from 49.997px */
+}
+
+.input-group i {
+  position: absolute;
+  left: 5vw; /* Converted from 5% */
+  color: #999;
+}
+
+.submit-button {
+  width: 7vw; /* Converted from 70% */
+  margin: 0 auto;
+  padding: 0.694vw;
+  display: block;
+  border: 0.994px solid #000000; /* Retained as pixels */
+  background: #3ca009;
+}
+
+/* Your existing CSS styles */
 
 /* Center the api-data container */
 .api-data {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left; /* Align content inside container */
-    margin: 20px auto; /* Adjust margin as needed */
-    padding: 10px; /* Adjust padding as needed */
-    border: 1px solid #ccc; /* Optional: Add border for visualization */
-    border-radius: 5px; /* Optional: Add border radius */
-    width: 70%; /* Adjust width as needed */
-    background-color: #f9f9f9; /* Optional: Add background color */
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left; /* Align content inside container */
+  margin: 2.0002vw auto; /* Converted from 20.002px */
+  padding: 0.9994vw; /* Converted from 9.994px */
+  border: 0.994px solid #ccc; /* Retained as pixels */
+  border-radius: 4.997px; /* Retained as pixels */
+  width: 70vw; /* Converted from 70% */
+  background-color: #f9f9f9; /* Retained as it is */
+}
 
- 
-  
-  .api-logo img {
-    
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove extra space below the image */
-    margin: 0 auto; /* Center the image horizontally */
-  }
- 
-  .api-logo {
-    margin-bottom: auto; /* Pushes the logo to the top of the container */
-    text-align: center;
-  }
-  
+.api-logo img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below the image */
+  margin: 0 auto; /* Center the image horizontally */
+}
 
-  
-  .column.left {
-    float: left;
-    width: 70%;
-    padding: 10px;
-    font-size: 1.5em
-  }
-  .bold-text {
+.api-logo {
+  margin-bottom: auto; /* Pushes the logo to the top of the container */
+  text-align: top;
+}
+
+.column.left {
+  float: left;
+  width: 70vw; /* Converted from 70% */
+  padding: 0.694vw;
+  font-size: 1.5vw; /* Converted from 1.5em */
+}
+
+.bold-text {
   font-weight: bold;
 }
 
-  /* Styles for the right column */
-  .column.right {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    float: inline-end;
-    width: 30%;
-    padding: 10px;
-    /* Additional styles for the right column */
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  h1 {
-    text-align: center;
-    color: #000000;
-  }
+/* Styles for the right column */
+.column.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: inline-end; /* Check if you intended a different unit here */
+  width: 30vw; /* Converted from 30% */
+  padding: 0.694vw;
+  /* Additional styles for the right column */
+}
 
-  .Search {
-    width: 70%;
-    margin: 0 auto;
-    padding: 10px;
-    display: block;
-    border: 1px solid #000000; /* Use the specific border width */
-    background: #3ca009;
-    color: #000000; /* Text color */
-    cursor: pointer;
-    text-align: center;
-  }
-  
-  /* You can add more specific styles or adjust it further based on your requirements */
-  
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+.Search {
+  width: 70vw; /* Converted from 70% */
+  margin: 0 auto;
+  padding: 0.694vw;
+  display: block;
+  border: 0.069vw solid #000000; /* Converted from 0.069px */
+  background: #3ca009;
+  color: #000000; /* Text color */
+  cursor: pointer;
+  text-align: center;
+}
