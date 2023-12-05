@@ -23,7 +23,7 @@ function Howtouse() {
           
             <img className='gambar3' src={gambar3} alt="gambar2" />
          
-        
+            <h1>Note: if you are using Mobile phone please use this web Horizontally </h1>
         <Link to="/home" className="center-button">
           <button>Ready To see How much Quota The position Offers???</button>
         </Link>
