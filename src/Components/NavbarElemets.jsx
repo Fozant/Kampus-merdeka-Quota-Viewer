@@ -41,19 +41,11 @@ export const Bars = styled(FaBars)`
     transform: translate(-100%, 75%);
     font-size: 1.8rem;
     cursor: pointer;
+   
   }
 `;
 
-export const NavMenu = styled.div`
-  display: flex;
-  align-items: center;
-  margin-right: -24px;
 
-  /* Media query for responsiveness */
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
 
 export const NavBtn = styled.nav`
   display: flex;
@@ -63,6 +55,7 @@ export const NavBtn = styled.nav`
   /* Media query for responsiveness */
   @media screen and (max-width: 768px) {
     display: none;
+    
   }
 `;
 
@@ -91,4 +84,48 @@ export const NavBtnLink = styled(Link)`
 export const LogoImage = styled.img`
   width: 80px; /* Adjust the width as needed */
   height: auto;
+`;
+
+
+
+export const NavMenu = styled.div`
+  display: flex;
+  align-items: center;
+  margin-right: -24px;
+
+  /* Additional styles for the menu items */
+  @media screen and (max-width: 768px) {
+    display: ${({ showMenu }) => (showMenu ? 'flex' : 'none')};
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    background: #000;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+
+    /* Styling for individual menu items */
+    a {
+      text-decoration: none;
+      padding: 1rem;
+      color: #fff;
+      transition: color 0.3s ease;
+      &:hover {
+        color: #15cdfc;
+      }
+    }
+
+    button {
+      color: #fff;
+      background-color: green;
+      border: none;
+      cursor: pointer;
+      padding: 8px 16px;
+      border-radius: 4px;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+      &:hover {
+        background-color: darkgreen;
+      }
+    }
+  }
 `;

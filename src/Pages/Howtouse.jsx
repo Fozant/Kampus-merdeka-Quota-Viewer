@@ -11,12 +11,12 @@ function Howtouse() {
   return (
     <div className="all">
       <Navbar />
-      <h1>Brief Tutorial How To Insert The Data :D</h1>
-      <h1>Note: if you are using Mobile phone please use this web Horizontally Or use desktop site</h1>
+      <h1 class="note">Brief Tutorial How To Insert The Data :D</h1>
+      
       <div className="class">
         <br />
         <img className='gambar' src={gambar} alt="Screenshot" />
-        <h1>Note: If you search and your position is not showing, it means it also doesn't work on the Kampus Merdeka web</h1>
+        <h1 class="note"> Note:This web using the same search system as kampus merdeka web, if your searched position doesnt appear here it also wont appear there</h1>
       
           
             <img className='gambar2' src={gambar2} alt="gambar2" />

@@ -1,5 +1,21 @@
-* {
-  box-sizing: border-box;
+/* For desktop */
+@media (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    overflow: auto; /* or your desired overflow value for desktop */
+  }
+}
+
+/* For mobile */
+@media (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    overflow: auto; /* or any other overflow value for mobile */
+  }
 }
 
 .register-container form {
@@ -8,6 +24,7 @@
   align-items: center;
   padding: 0 1vw; /* Converted from 1rem */
   width: 30vw; /* Converted from 30% */
+  
 }
 
 .input-group {
