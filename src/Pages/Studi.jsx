@@ -27,12 +27,12 @@ const Home = () => {
     event.preventDefault();
     try {
       setLoading(true);
-      const response = await axios.get('https://api.kampusmerdeka.kemdikbud.go.id/magang/browse/position', {
+      const response = await axios.get('https://api.kampusmerdeka.kemdikbud.go.id/studi/browse/activity', {
         params: {
           keyword: jobName,
           mitra_key: mitraName,
           location_key: location,
-          limit : 10000,
+          limit : 100,
         },
       });
       setApiData(response.data.data); // Update apiData state here
@@ -62,30 +62,21 @@ const Home = () => {
   <div className='all'>
     {/* <Header/> */}
     <Navbar />
-    <h1>Magang Quota Viewer</h1>
+    <h1>Studi Independen quota viewer</h1>
     <br />
     <br />
     <form id="register-form" onSubmit={handleSubmit}>
       <div className="input-group">
         <input
           className="Job Name"
-          placeholder="Enter Job Name here, please copy exact name"
+          placeholder="Enter Position Name here, please copy exact name"
           name="jobName"
           value={jobName}
           onChange={handleJobNameChange}
         />
         <i className="icon fa-solid fa-envelope"></i>
       </div>
-      <div className="input-group">
-        <input
-          className="mitra name"
-          placeholder="Enter mitra name here, please copy exact name"
-          name="mitra_name"
-          value={mitraName}
-          onChange={handleMitraNameChange}
-        />
-        <i className="icon fas fa-lock"></i>
-      </div>
+     
       <div className="input-group">
         <input
           className="Activityname"
@@ -120,8 +111,8 @@ const Home = () => {
                 
                 <p> Name Mitra  : {item.mitra_name}</p>
           <p>Nama Program : {item.name}</p>
-          <p> Nama Posisi  : {item.activity_name}</p>
-          <p class="bold-text">Total Kuota Posisi       : {item.total}</p>
+          
+          <p class="bold-text">Total Kuota Posisi       : {item.participants_count}</p>
          
           <p>Credits Count: {item.credits_count}</p>
           <p>Activity Type: {item.activity_type}</p>

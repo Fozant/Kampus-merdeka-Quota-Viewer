@@ -18,10 +18,17 @@ const CopyrightText = styled.p`
 `;
 
 const Footer = () => {
+
+  const feedbackFormUrl = 'https://forms.office.com/r/Y6FsC6qxF8';
   return (
     <FooterContainer>
       <CopyrightText>© 2023 Fauzan T™</CopyrightText>
+      
+      <a href={feedbackFormUrl} target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'underline', cursor: 'pointer' }} >
+      Have Feedback? Send it here!
+      </a>
     </FooterContainer>
+
   );
 };
 

@@ -23,16 +23,25 @@ const Navbar = () => {
         {/* Centered text */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%' }}>
         
-          <h1 style={{ color: '#fff' }}>Detail Kampus Merdeka Position Viewer </h1>
+          <h1 style={{ color: '#fff' }}> Kampus Merdeka MSIB Quota Position Viewer </h1>
          
          
         </div>
         {/* End centered text */}
         <Bars />
         <NavMenu>
-        <NavLink to='/' activeStyle>
+              <NavLink to='/' activeStyle>
                 How to Use this app? Click Here
               </NavLink>
+
+              <NavLink to='/home' activeStyle>
+              Magang Quota Viewer
+              </NavLink>
+
+              <NavLink to='/studi' activeStyle>
+              Studi Independen Quota Viewer
+              </NavLink>
+
           <button onClick={handleRefresh} style={{
             color: '#fff',
             backgroundColor: 'green', // Set background color to green

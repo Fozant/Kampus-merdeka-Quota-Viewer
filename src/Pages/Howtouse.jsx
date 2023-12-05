@@ -31,6 +31,9 @@ function Howtouse() {
         <br />
         <br />
         <br />
+        <br />
+        <br />
+        <br />
       </div>
       <Footer />
     </div>

@@ -50,73 +50,71 @@
 
 /* Center the api-data container */
 .api-data {
+  margin: 2.0002vw auto; 
+  padding: 0.9994vw; 
+  border: 0.994px solid #ccc;
+  border-radius: 4.997px;
+  width: 90vw; 
+  background-color: #f9f9f9; 
+ 
+}
+
+.form{
+display :flex;
+flex-direction: column;
+border:24px  #000000;
+}
+.data-row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: left; /* Align content inside container */
-  margin: 2.0002vw auto; /* Converted from 20.002px */
-  padding: 0.9994vw; /* Converted from 9.994px */
-  border: 0.994px solid #ccc; /* Retained as pixels */
-  border-radius: 4.997px; /* Retained as pixels */
-  width: 70vw; /* Converted from 70% */
-  background-color: #f9f9f9; /* Retained as it is */
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  width: 100%;
 }
-
-.api-logo img {
-  max-width: 100%; /* Ensure the image doesn't exceed its container */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Remove extra space below the image */
-  margin: 0 auto; /* Center the image horizontally */
+.data-row td {
+  width: 50%; 
+  padding: 10px;
 }
-
-.api-logo {
-  margin-bottom: auto; /* Pushes the logo to the top of the container */
-  text-align: top;
+.logo-img {
+ 
+  width: 15vw;
+  height: 10vw;
+  
 }
 
 .column.left {
-  float: left;
-  width: 70vw; /* Converted from 70% */
-  padding: 0.694vw;
-  font-size: 1.5vw; /* Converted from 1.5em */
+ 
 }
 
-.bold-text {
-  font-weight: bold;
-}
 
-/* Styles for the right column */
+
+
 .column.right {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  float: inline-end; /* Check if you intended a different unit here */
-  width: 30vw; /* Converted from 30% */
-  padding: 0.694vw;
-  /* Additional styles for the right column */
+  
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+
+.api-logo img {
+ 
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+
 h1 {
   text-align: center;
   color: #000000;
 }
 
 .Search {
-  width: 70vw; /* Converted from 70% */
   margin: 0 auto;
   padding: 0.694vw;
   display: block;
-  border: 0.069vw solid #000000; /* Converted from 0.069px */
+  border: 0.994px solid #000000; 
   background: #3ca009;
-  color: #000000; /* Text color */
-  cursor: pointer;
-  text-align: center;
+ 
+}
+
+
+.bold-text {
+  font-weight: bold;
 }

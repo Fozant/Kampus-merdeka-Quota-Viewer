@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .register-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1vw; /* Converted from 1rem */
+    width: 30vw; /* Converted from 30% */
+  }
+  
+  .input-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.728vw; /* Converted from 17.28px */
+  }
+  
+  .input-group input {
+    width: 70vw; /* Converted from 70% (Adjust width as needed) */
+    padding: 1vw; /* Converted from 9.994px */
+    border: 0.069vw solid #ccc;
+    border-radius: 0.347vw;
+    outline: none;
+    padding-left: 0.2083vw; /* Converted from 2.083vw */
+    border-radius: 0.694vw;
+    border: 0.994px solid #08b005; /* Retained as pixels */
+    background: #FFF;
+    height: 4.9997vw; /* Converted from 49.997px */
+  }
+  
+  .input-group i {
+    position: absolute;
+    left: 5vw; /* Converted from 5% */
+    color: #999;
+  }
+  
+  .submit-button {
+    width: 7vw; /* Converted from 70% */
+    margin: 0 auto;
+    padding: 0.694vw;
+    display: block;
+    border: 0.994px solid #000000; /* Retained as pixels */
+    background: #3ca009;
+  }
+  
+  /* Your existing CSS styles */
+  
+  /* Center the api-data container */
+  .api-data {
+    margin: 2.0002vw auto; 
+    padding: 0.9994vw; 
+    border: 0.994px solid #ccc;
+    border-radius: 4.997px;
+    width: 90vw; 
+    background-color: #f9f9f9; 
+   
+  }
+  
+  .form{
+  display :flex;
+  flex-direction: column;
+  border:24px  #000000;
+  }
+  .data-row{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    width: 100%;
+  }
+  .data-row td {
+    width: 50%; 
+    padding: 10px;
+  }
+  .logo-img {
+   
+    width: 15vw;
+    height: 10vw;
+    
+  }
+  
+  .column.left {
+   
+  }
+  
+  
+  
+  
+  .column.right {
+    
+  }
+  
+  
+  .api-logo img {
+   
+  }
+  
+  
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .Search {
+    margin: 0 auto;
+    padding: 0.694vw;
+    display: block;
+    border: 0.994px solid #000000; 
+    background: #3ca009;
+   
+  }
+  
+  
+  .bold-text {
+    font-weight: bold;
+  }
