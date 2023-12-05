@@ -12,6 +12,7 @@ function Howtouse() {
     <div className="all">
       <Navbar />
       <h1>Brief Tutorial How To Insert The Data :D</h1>
+      <h1>Note: if you are using Mobile phone please use this web Horizontally Or use desktop site</h1>
       <div className="class">
         <br />
         <img className='gambar' src={gambar} alt="Screenshot" />
@@ -23,7 +24,7 @@ function Howtouse() {
           
             <img className='gambar3' src={gambar3} alt="gambar2" />
          
-            <h1>Note: if you are using Mobile phone please use this web Horizontally </h1>
+            
         <Link to="/home" className="center-button">
           <button>Ready To see How much Quota The position Offers???</button>
         </Link>
