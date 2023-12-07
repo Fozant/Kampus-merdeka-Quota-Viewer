@@ -11,7 +11,7 @@ function Howtouse() {
   return (
     <div className="all">
       <Navbar />
-      <h1 class="note">Brief Tutorial How To Insert The Data :D</h1>
+      <h1 class="note">TEST Brief Tutorial How To Insert The Data :D</h1>
       
       <div className="class">
         <br />
